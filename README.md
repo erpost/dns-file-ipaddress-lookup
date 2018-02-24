@@ -1,5 +1,7 @@
 # Performs Lookup on [CNAME-formatted](https://en.wikipedia.org/wiki/CNAME_record) file and Outputs a CSV File #
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/59e1826fa3e54889bb4e5b0f8d76ca2e)](https://app.codacy.com/app/erpost/dns-file-ipaddress-lookup?utm_source=github.com&utm_medium=referral&utm_content=erpost/dns-file-ipaddress-lookup&utm_campaign=badger)
+
 Sample input:
 ```text
 NAME                        TYPE    VALUE
