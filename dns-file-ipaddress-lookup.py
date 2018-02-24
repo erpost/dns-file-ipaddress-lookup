@@ -8,7 +8,7 @@ if len(infile) < 1:
     print('\nNo file supplied!')
     exit()
 
-dict = {}
+kv_dict = {}
 # open input file and parse into dictionary
 with open(infile) as f:
     for line in f.readlines():
@@ -16,7 +16,7 @@ with open(infile) as f:
         if not line.startswith('CNAME'):
             if 'IN A' in line or 'CNAME' in line:
                 splitline = line.split(' ')
-                dict[splitline[0]] = splitline[-1]
+                kv_dict[splitline[0]] = splitline[-1]
 
 # create output CSV and begin writing
 outfile = infile.split('.')[0] + '.csv'
@@ -27,7 +27,7 @@ with open(outfile, 'w', newline='') as outfile:
 
     url = 'http://ip-api.com/json/'
     # pull API and decode
-    for key, value in dict.items():
+    for key, value in kv_dict.items():
         resp = rq.get(url + value)
         js = resp.json()
         print(resp.json())
