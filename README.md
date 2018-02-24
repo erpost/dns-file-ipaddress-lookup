@@ -1,4 +1,4 @@
-**Performs Lookup on DNS Hostmaster File and Outputs a CSV File**
+# Performs Lookup on [CNAME-formatted](https://en.wikipedia.org/wiki/CNAME_record) file and Outputs a CSV File #
 
 Sample input:
 
