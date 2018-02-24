@@ -4,8 +4,10 @@ Sample input:
 ```text
 NAME                    TYPE    VALUE
 
-bar.example.com.        CNAME  foo.example.com.
-foo.example.com.        A      192.0.2.23
+www.gmail.com. IN       A       172.217.7.133
+mail.yahoo.com IN       AAAA    2001:4998:58:2201::50
+mail.google.com. IN     CNAME   smail.google.com
+www.yahoo.com. IN       CNAME   fo-ds-ats.member.g02.yahoodns.net.
 ```
 
 
