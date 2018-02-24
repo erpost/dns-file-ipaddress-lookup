@@ -1,11 +1,12 @@
 # Performs Lookup on [CNAME-formatted](https://en.wikipedia.org/wiki/CNAME_record) file and Outputs a CSV File #
 
 Sample input:
-
-`NAME                    TYPE    VALUE
+```text
+NAME                    TYPE    VALUE
 
 bar.example.com.        CNAME  foo.example.com.
-foo.example.com.        A      192.0.2.23`
+foo.example.com.        A      192.0.2.23
+```
 
 
 Sample output:
