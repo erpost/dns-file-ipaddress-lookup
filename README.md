@@ -2,12 +2,12 @@
 
 Sample input:
 ```text
-NAME                    TYPE    VALUE
+NAME                        TYPE    VALUE
 
-www.gmail.com. IN       A       172.217.7.133
-mail.yahoo.com IN       AAAA    2001:4998:58:2201::50
-mail.google.com. IN     CNAME   smail.google.com
-www.yahoo.com. IN       CNAME   fo-ds-ats.member.g02.yahoodns.net.
+www.gmail.com.      IN      A       172.217.7.133
+mail.yahoo.com      IN      AAAA    2001:4998:58:2201::50
+mail.google.com.    IN      CNAME   smail.google.com
+www.yahoo.com.      IN      CNAME   fo-ds-ats.member.g02.yahoodns.net.
 ```
 
 
