@@ -40,5 +40,3 @@ with open(outfile, 'w', newline='') as outfile:
             out_file.writerow([key] + [js['status']] + [value])
 
         time.sleep(1)
-
-outfile.close()
