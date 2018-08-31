@@ -26,7 +26,7 @@ with open(outfile, 'w', newline='') as outfile:
                       ['AS Number'] + ['City'] + ['State'] + ['Country'] + ['Zip Code'])
 
     url = 'http://ip-api.com/json/'
-    # pull API and decode
+    # pull JSON and decode
     for key, value in kv_dict.items():
         resp = rq.get(url + value)
         js = resp.json()
